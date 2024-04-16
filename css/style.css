@@ -1,0 +1,1029 @@
+/* body {
+    overflow-x: hidden;
+} */
+
+header nav.light-yellow {
+    background-color: #FFFBEE;
+}
+
+header nav.yellow {
+    background-color: #F2DC9F;
+}
+
+header nav {
+    padding: 0 !important;
+}
+
+header nav .navbar-nav .nav-item .nav-link {
+    color: #966B41;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+header nav .navbar-brand img,
+header .connect-img {
+    height: 85px;
+}
+
+header nav ul.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header nav li.nav-item {
+    text-align: center;
+}
+
+main {
+    background: url('../img/bg.jpg');
+    position: relative;
+    background-size: 100% 100%;
+    display: grid;
+}
+
+main .container {
+    /* z-index: 99; */
+    position: relative;
+    padding: 0;
+    font-size: 1.5rem;
+}
+
+main .container .content {
+    text-align: center;
+}
+
+main .container .content .purpose {
+    margin: 2rem 0;
+    width: 90%;
+}
+
+main .phone,
+main .container .content .text br {
+    display: none;
+}
+
+main .container .content .contact-us br {
+    display: block;
+}
+
+main .container .content .text,
+main .container .content .news-card,
+main .container .content .news,
+main .container .content .course,
+main .container .content .course .course-link a,
+main .tab-content span,
+main .tab-content #process2 ul,
+main .tab-content #process3 ul,
+main .tab-content.tab-service #process1 ul,
+main .tab-content.tab-service #process2 .modal{
+    color: #736231;
+    font-weight: 600;
+}
+
+main .container .content .news .card-text {
+    line-height: 2.3rem;
+}
+
+main .container .content .news-card .card-title {
+    font-size: 2.3rem;
+    font-weight: 600;
+    min-height: 8vh;
+}
+
+main .container .content .course .col-md-12 {
+    display: flex;
+    align-items: center;
+}
+
+main .container .content .news .col-md-12 .card-content .card-title,
+main .container .content .course .col-md-12 .card-title {
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+main .container .content .date {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #744423;
+}
+
+main .container .content .course .col-md-12 .col-md-8 {
+    text-align: start;
+    padding: 2rem;
+}
+
+main .container .content .course .col-md-12 .col-md-8 .course-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+}
+
+main .container .content .course .col-md-12 .col-md-4 {
+    padding: 1rem 0;
+}
+
+main .container .content .news .col-md-12 .col-md-6 {
+    display: grid;
+    text-align: start;
+}
+
+main .container .content .news .col-md-12 .col-md-6 a.goback {
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+}
+
+main .container .content .news .col-md-12 .col-md-6 img {
+    padding: 0 2rem 0 0;
+}
+
+main .container .content .news .col-md-12 {
+    display: flex;
+}
+
+main .container .content .news .col-md-12 .col-md-4 .news-card,
+main .container .content .news .col-md-12 .col-md-4 .activities-card {
+    margin: 0 2rem;
+}
+
+main .container .content .news .col-md-12 .col-md-4 .news-card .card-body,
+main .container .content .news .col-md-12 .card-content {
+    text-align: start;
+}
+
+main .container .content .news .col-md-12 .col-md-4 .activities-card .card-body {
+    text-align: center;
+}
+
+main .container .content .activities .col-md-12 {
+    display: contents;
+}
+
+main .container .content .activities .col-md-12 .col-md-4 .activities-card {
+    margin: 1rem 2rem;
+}
+
+main .container .content .text p {
+    font-size: 1.7rem;
+}
+
+main .container .content .activities-card a {
+    display: inline-block;
+}
+
+main .container .content .activities-card .card-title,
+main .tab-content h4 {
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+main .container .content .activities .goback-group {
+    display: flex;
+    margin-left: 1rem;
+}
+
+main .container .content .activities .goback-group a.goback {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    color: #c6053e;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+
+main .container .content .activities .goback-group a.goback img {
+    height: 30px;
+    width: 30px;
+}
+
+main .container .content .text.long-term .row {
+    display: flex;
+    justify-content: center;
+}
+
+main .container .content .text .col-md-12 {
+    display: contents;
+}
+
+main .container .content .text .col-md-12 .col-md-33 {
+    padding: 1rem;
+    flex: 0 0 auto;
+    width: 19.666667%;
+}
+
+main .container .content .text .col-md-12 img {
+    width: 100%;
+}
+
+main .container .content .text.long-term {
+    margin-top: 10rem;
+}
+
+main .container .content .text .little-title {
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+
+main .container .pink {
+    font-size: 2.3rem !important;
+    color: #E78992;
+}
+
+main .container .content .pic {
+    position: relative;
+}
+
+main .container .content .talk {
+    z-index: 100;
+    position: relative;
+    width: 50%;
+}
+
+main .container .process  {
+    z-index: 100;
+}
+
+main .container .content .cloud-one {
+    position: absolute;
+    top: 0;
+    right: -9%;
+    z-index: 0;
+}
+
+main .container .content .cloud-two {
+    position: absolute;
+    top: -5%;
+    left: 0;
+    z-index: 0;
+}
+
+main .container .content .cloud-three {
+    position: absolute;
+    top: 15%;
+    left: -5%;
+    z-index: 0;
+}
+
+main .container .content .contact-cloud-one {
+    position: absolute;
+    top: 30%;
+    right: -10%;
+    z-index: 0;
+}
+
+main .container .content .contact-cloud-two {
+    position: absolute;
+    top: 30%;
+    left: -15%;
+    z-index: 0;
+}
+
+main .container .content .contact-cloud-three {
+    position: absolute;
+    bottom: 0;
+    left: -20%;
+    z-index: 0;
+}
+
+main .container .content h2 {
+    margin-bottom: 0.5rem;
+    font-weight: 900;
+    font-size: 2.7rem;
+}
+
+main .container .content .contact-us,
+main .container .content .course,
+main .container .content .news,
+main .container .content .activities {
+    z-index: 99;
+    position: relative;
+}
+
+
+main .container .content .contact-us .col-md-12 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+main .container .content .contact-us .col-md-12 .col-md-6 {
+    color: #736231;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-align: start;
+}
+
+main .container .content .contact-us .col-md-12 .col-md-6 p {
+    line-height: 2.7rem;
+    margin-bottom: 0;
+}
+
+main .container .content .contact-us .col-md-12 .col-md-6 .contact-us-group {
+    display: flex;
+    justify-content: start;
+}
+
+main .container .content .contact-us .col-md-12 .col-md-6 .contact-us-group a img {
+    width: 100px;
+    margin: 1.5rem 1.5rem 0 0;
+}
+
+main .nav-tabs-group {
+    background-color: #E4B437;
+    color: #fff;
+    font-weight: 600;
+    justify-content: center;
+    display: grid;
+    text-align: center;
+}
+
+main .nav-tabs-group h2 {
+    font-weight: 900;
+}
+
+main .nav-tabs .nav-item {
+    position: relative;
+}
+
+main .nav-tabs .nav-item img {
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    width: 70px;
+}
+
+main .nav-tabs .nav-item .nav-link {
+    width: auto;
+}
+
+
+main .nav-tabs .nav-item .nav-link span {
+    padding-left: 50px;
+    font-size: 1.5rem;
+}
+
+main .tab-content ul {
+    font-weight: 600;
+}
+
+main .tab-content.process #process1 ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+main .tab-content .pink-top-text {
+    background-color: #F3ACB5;
+    color: #fff;
+    padding: 2rem;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+main .tab-content .yellow-top-text {
+    background-color: #F2D896;
+    color: #72663A;
+    padding: 2rem 2rem 2rem 9rem;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+main .tab-content .yellow-top-text span {
+    color: #E71E28;
+}
+
+main .tab-content .remark {
+    font-weight: 600;
+}
+
+main .tab-content h4 {
+    margin: 1rem 0;
+}
+
+main .tab-content span {
+    margin: 1rem 0;
+}
+
+main .nav-tabs .nav-link {
+    color: #6E622E;
+    background-color: #F2D896;
+    border-bottom: 5px solid #E4B437;
+    margin: 0 1px;
+}
+
+main .nav-tabs .nav-link.active {
+    color: #AF2435;
+    background-color: #fff;
+    border-bottom: 5px solid #DA5C69;
+}
+
+
+main .tab-content #process1 .hotline-group {
+    display: flex;
+    justify-content: center;
+}
+
+main .tab-content #process1 .hotline {
+    margin-top: 2.5rem;
+    width: 85%;
+}
+
+main .tab-content #process1 .hotline img {
+    position: absolute;
+    bottom: 0;
+    left: 25px;
+}
+
+main .tab-content span,
+main .tab-content #process3 ul li {
+    line-height: 3rem;
+}
+
+main .tab-content.process #process2 ul.notice,
+main .tab-content.process #process3 ul.notice {
+    list-style: none;
+    padding-left: 0;
+}
+
+main .tab-content.process #process2 ul.notice li,
+main .tab-content.process #process3 ul.notice li {
+    padding-left: 1em;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+main .tab-content.process #process2 ul.notice li:before,
+main .tab-content.process #process3 ul.notice li:before {
+    content: '※';
+    position: absolute;
+    left: 0;
+}
+
+main .tab-content.process #process2 ul.notice li a,
+main .tab-content.process #process3 ul li a {
+    text-decoration: none;
+    color: #736231;
+}
+
+main .tab-content.process #process3 ul.time {
+    list-style: none;
+}
+
+main .tab-content.process #process3 ul.time li:first-child {
+    margin-left: -2.2rem;
+}
+
+main .tab-content.tab-service #process3 ul.time li:first-child {
+    margin-left: -2.2rem;
+}
+
+main .tab-content.tab-service .text-indent {
+    text-indent: 1em;
+    padding: 1em;
+}
+
+main .tab-content.tab-service .service-padding {
+    padding-left: 1em;
+    font-weight: 600;
+}
+
+main .tab-content.tab-service .service-cjk-ideographic {
+    padding: 0 0 0 2em;
+}
+
+main .tab-content.tab-service .service-cjk-ideographic li {
+    list-style: cjk-ideographic;
+}
+
+
+main .tab-content.tab-service .service-decimal li {
+    list-style: decimal;
+}
+
+
+main .tab-content.tab-service .service-upper-alpha li {
+    list-style: upper-alpha;
+}
+
+main .tab-content.tab-service .asterisk li {
+    list-style: none;
+    padding-left: 2em;
+}
+
+main .tab-content.tab-service #process1 .red-text {
+    color: #E71F18;
+}
+
+main .tab-content.tab-service #process1 .img-center {
+    display: flex;
+    justify-content: center;
+}
+
+main .tab-content.tab-service #process2 .service-item .modal-header {
+    border-bottom: none;
+}
+
+main .tab-content.tab-service #process2 .service-item .col-md-12 {
+    display: contents;
+}
+
+main .tab-content.tab-service #process2 .service-item .modal .modal-body #modalTitle {
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+main .tab-content.tab-service #process2 .service-item .modal .modal-body .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+ }
+ 
+ main .tab-content.tab-service #process2 .service-item .modal .modal-body .row .btnArrow-Prev {
+    position: absolute;
+    top: 45%;
+    left: 2%;
+    translate: -50%;
+ }
+ 
+ main .tab-content.tab-service #process2 .service-item .modal .modal-body .row .btnArrow-Next {
+    position: absolute;
+    top: 45%;
+    right: 2%;
+    translate: 50%;
+ }
+ 
+ 
+main .tab-content.tab-service #process2 .service-item .col-md-4 {
+    display: inline-grid;
+    justify-content: center;
+}
+
+main .tab-content.tab-service #process2 .service-item .modal .modal-body .row .col-md-8 {
+   text-align: start;
+   width: 58%;
+}
+
+main .tab-content.tab-service #process2 .service-item .modal .modal-body .row .btnArrow {
+    color: #98846C;
+ }
+ 
+
+main .tab-content.tab-service #process2 .service-item .modal .modal-body .row .col-md-6 #modalContent {
+    font-size: 1.3rem;
+}
+
+.modal-backdrop {
+    background-color: #FFFAEF;
+}
+
+.modal-content{
+    border: none;
+    border-radius: 1.5rem;
+    box-shadow: 5px 5px 10px -3px #c8c8c8;
+}
+
+/* fittings  */
+main .container .sun {
+    position: absolute;
+    top: 3%;
+    right: 0;
+    z-index: 0;
+}
+
+main .container .process-sun.sun {
+    top: 40px;
+    right: -100px;
+}
+
+main .cloud {
+    margin-top: -8rem;
+}
+
+main .activities-cloud {
+    margin-top: -5rem;
+}
+
+main .cloud-hight {
+    margin-top: -40rem;
+}
+
+main .cloud img {
+    opacity: 0.8;
+}
+
+main .fixed-btn {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    display: grid;
+    z-index: 9999;
+    transform: translateZ(0);
+}
+
+main .fixed-btn button {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 45px;
+    height: 45px;
+    border: 0;
+    padding: 0;
+}
+
+main .fixed-btn a {
+    border-radius: 50%;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+}
+
+main .fixed-btn .fb {
+    margin: 5px 0;
+}
+
+main .fixed-btn button img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* footer */
+footer .connect {
+    display: flex;
+    height: 65px;
+    justify-content: center;
+    background-color: #EEBB30;
+}
+
+footer .connect .girl {
+    z-index: 9;
+    display: flex;
+    align-items: flex-end;
+}
+
+footer .connect .girl img {
+    margin-bottom: -5px;
+    width: 6vw;
+}
+
+footer .connect .connect-content {
+    display: flex;
+    color: #fff;
+    align-items: center;
+}
+
+footer .connect .connect-content h4 {
+    font-size: 1.9rem;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+footer .connect .connect-content h2 {
+    margin: 0 1rem 0 0.5rem;
+    font-weight: 600;
+    font-size: 2.7rem;
+}
+
+footer .connect .connect-content .contact {
+    width: 40px;
+    margin-right: 0.5rem;
+}
+
+footer .connect .connect-content img:not(:last-child) {
+    margin-right: 0.5rem;
+}
+
+footer .footer {
+    height: 90px;
+    background-color: #F2DC9F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+footer .footer img {
+    margin-right: 1.5rem;
+    height: 85px;
+}
+
+.br-mobile {
+    display: none;
+}
+
+
+@media (max-width:992px) {
+
+    header nav .navbar-brand img,
+    header .connect-img {
+        height: 60px;
+    }
+
+    .connect-img {
+        display: none;
+    }
+
+    .br-mobile {
+        display: block;
+    }
+
+    main .container .sun {
+        position: absolute;
+        top: 4%;
+        right: 5%;
+        z-index: 0;
+    }
+
+    main .container .content .purpose {
+        width: 100%;
+    }
+
+    main .cloud {
+        margin-top: 0;
+    }
+
+    main .fixed-btn {
+        right: 5%;
+    }
+
+    footer .connect {
+        height: auto;
+        padding: 1rem 0;
+        align-items: center;
+    }
+
+    footer .connect .connect-content {
+        display: block;
+    }
+
+    footer .footer {
+        height: auto;
+        display: grid;
+        text-align: center;
+        padding: 1rem 0;
+    }
+
+    footer .footer img {
+        margin-right: 1.5rem;
+        height: 70px;
+    }
+
+    footer .connect .girl img {
+        margin-bottom: 0px;
+        width: 20vw;
+        margin-right: 1rem;
+    }
+
+    footer .connect .connect-content h4,
+    footer .connect .connect-content h2 {
+        margin: 0 0 0.5rem 0;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+@media (min-width:1000px) and (max-width:1250px) {
+    main .cloud-hight {
+        margin-top: -30rem;
+    }
+}
+
+@media (min-width:500px) and (max-width: 992px) {
+    main .cloud-hight {
+        margin-top: -15rem;
+    }
+
+    footer .connect .girl img {
+        width: 5rem;
+    }
+}
+
+@media (max-width: 499px) {
+    main .desktop {
+        display: none;
+    }
+
+    main .phone {
+        display: block;
+    }
+
+    header nav.light-yellow {
+        height: 70px;
+    }
+
+    header nav .navbar-brand img,
+    header .connect-img {
+        height: 6.5vh;
+    }
+
+    main .container.tabs-group {
+        padding: .5rem;
+    }
+
+    main .container .content .text.long-term {
+        margin-top: 2rem;
+        background: url(/img/cloud-hight-one.png);
+        background-size: 330% 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        padding-bottom: 5rem;
+    }
+
+    main .container .content .text.long-term .row {
+        z-index: 99;
+        position: relative;
+    }
+
+    main .container .content .text.long-term .cloud-hight {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+    }
+
+    main .container .content .text.long-term h2 {
+        margin-bottom: 1rem !important;
+    }
+
+    main .container .content .text p {
+        font-size: 1.5rem;
+        margin: 0;
+        line-height: 3.5rem;
+        font-weight: 600;
+    }
+
+    main .container .content .text .pink {
+        font-size: 1.7rem;
+    }
+
+    main .container .content .text br,
+    main .container .content .contact-us .col-md-12 {
+        display: block;
+    }
+
+    main .container .content .contact-us br {
+        display: none;
+    }
+
+    main .container .content .row,
+    main .container .content .contact-us .col-md-12 {
+        margin: 0;
+        padding: 0;
+    }
+
+    main .container .content .row {
+        margin-top: -1rem;
+    }
+
+    main .container .content .contact-us .col-md-12 .col-md-6 {
+        font-size: 1.4rem;
+    }
+
+    main .container .content .contact-us .col-md-12 .col-md-6 p {
+        line-height: 2.7rem;
+        padding: 0 0.5rem;
+    }
+
+    main .container .content .contact-us .col-md-12 .col-md-6 .contact-us-group a img {
+        width: 70px;
+        margin: 1.5rem .5rem;
+    }
+
+    main .container .content .contact-us .col-md-12 .col-md-6.google-map {
+        display: flex;
+        justify-content: center;
+    }
+
+    main .container .content .contact-us .col-md-12 .col-md-6 iframe {
+        width: 95%;
+        height: 300px;
+    }
+
+    main .cloud,
+    main .cloud-hight {
+        margin-top: -2rem;
+    }
+
+    main .container .content .news .col-md-12 .col-md-4 .news-card {
+        margin: 0;
+    }
+
+    main .container .content .news .col-md-12,
+    main .container .content .course .col-md-12 .col-md-8 .course-title {
+        display: block;
+    }
+
+    main .container .content .course .col-md-12 .col-md-8 {
+        padding: 0;
+    }
+
+    main .container .content .news .col-md-12 .col-md-6 img {
+        padding: 0;
+    }
+
+    main .container .content .course .col-md-12 {
+        display: grid;
+    }
+
+
+    main .nav-tabs .nav-item img {
+        position: absolute;
+        bottom: 13px;
+        left: 0;
+        width: 20px;
+    }
+
+    main .nav-tabs .nav-item .nav-link {
+        width: auto;
+    }
+
+    main .nav-tabs .nav-item .nav-link span {
+        padding-left: 0;
+        font-size: 1rem;
+    }
+
+    main .tab-content .pink-top-text {
+        padding: 1.5rem;
+        border-radius: 25px;
+        font-size: 1.5rem;
+    }
+
+    main .tab-content .yellow-top-text {
+        line-height: 2rem;
+        font-size: 1.5rem;
+        padding: 1.5rem;
+    }
+
+    main .tab-content .yellow-top-text span {
+        line-height: 1.5rem;
+    }
+
+    main .tab-content #process1 .hotline {
+        margin-top: 0;
+        width: 100%;
+    }
+
+    main .fixed-btn {
+        right: 2%;
+    }
+
+    main .container .content .talk {
+        width: 100%;
+    }
+
+    main .container .content .text .col-md-12 .col-md-33 {
+        width: 41.666667%;
+    }
+    
+    main .tab-content.tab-service #process2 .content .text p {
+        display: contents;
+    }
+    
+    main .tab-content.tab-service #process2 .service-item .modal .modal-body .row {
+        display: contents;
+    }
+     
+     main .tab-content.tab-service #process2 .service-item .modal .modal-body .row .col-md-8 {
+        width: 100%;
+    }
+    
+    main .tab-content.tab-service #process2 .service-item .modal .modal-body .row .btnArrow-Prev {
+        position: absolute;
+        top: 45%;
+        left: 5%;
+        translate: -50%;
+    }
+    
+    main .tab-content.tab-service #process2 .service-item .modal .modal-body .row .btnArrow-Next {
+        position: absolute;
+        top: 45%;
+        right: 5%;
+        translate: 50%;
+    }
+
+    /* footer */
+    footer .footer {
+        font-size: 1.3rem;
+    }
+
+    footer .footer img {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    footer .connect .connect-content .contact {
+        width: 50px;
+    }
+}
