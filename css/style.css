@@ -1,7 +1,3 @@
-/* body {
-    overflow-x: hidden;
-} */
-
 header nav.light-yellow {
     background-color: #FFFBEE;
 }
@@ -18,6 +14,8 @@ header nav .navbar-nav .nav-item .nav-link {
     color: #966B41;
     font-weight: 600;
     font-size: 1.4rem;
+    display: flex;
+    align-items: center;
 }
 
 header nav .navbar-brand img,
@@ -43,7 +41,6 @@ main {
 }
 
 main .container {
-    /* z-index: 99; */
     position: relative;
     padding: 0;
     font-size: 1.5rem;
@@ -76,7 +73,7 @@ main .tab-content span,
 main .tab-content #process2 ul,
 main .tab-content #process3 ul,
 main .tab-content.tab-service #process1 ul,
-main .tab-content.tab-service #process2 .modal{
+main .tab-content.tab-service #process2 .modal {
     color: #736231;
     font-weight: 600;
 }
@@ -241,7 +238,7 @@ main .container .content .talk {
     width: 50%;
 }
 
-main .container .process  {
+main .container .process {
     z-index: 100;
 }
 
@@ -358,7 +355,6 @@ main .nav-tabs .nav-item .nav-link {
     width: auto;
 }
 
-
 main .nav-tabs .nav-item .nav-link span {
     padding-left: 50px;
     font-size: 1.5rem;
@@ -421,7 +417,6 @@ main .nav-tabs .nav-link.active {
     background-color: #fff;
     border-bottom: 5px solid #DA5C69;
 }
-
 
 main .tab-content #process1 .hotline-group {
     display: flex;
@@ -543,37 +538,35 @@ main .tab-content.tab-service #process2 .service-item .modal .modal-body .row {
     align-items: center;
     justify-content: center;
     position: relative;
- }
- 
- main .tab-content.tab-service #process2 .service-item .modal .modal-body .row .btnArrow-Prev {
+}
+
+main .tab-content.tab-service #process2 .service-item .modal .modal-body .row .btnArrow-Prev {
     position: absolute;
     top: 45%;
     left: 2%;
     translate: -50%;
- }
- 
- main .tab-content.tab-service #process2 .service-item .modal .modal-body .row .btnArrow-Next {
+}
+
+main .tab-content.tab-service #process2 .service-item .modal .modal-body .row .btnArrow-Next {
     position: absolute;
     top: 45%;
     right: 2%;
     translate: 50%;
- }
- 
- 
+}
+
 main .tab-content.tab-service #process2 .service-item .col-md-4 {
     display: inline-grid;
     justify-content: center;
 }
 
 main .tab-content.tab-service #process2 .service-item .modal .modal-body .row .col-md-8 {
-   text-align: start;
-   width: 58%;
+    text-align: start;
+    width: 58%;
 }
 
 main .tab-content.tab-service #process2 .service-item .modal .modal-body .row .btnArrow {
     color: #98846C;
- }
- 
+}
 
 main .tab-content.tab-service #process2 .service-item .modal .modal-body .row .col-md-6 #modalContent {
     font-size: 1.3rem;
@@ -583,13 +576,12 @@ main .tab-content.tab-service #process2 .service-item .modal .modal-body .row .c
     background-color: #FFFAEF;
 }
 
-.modal-content{
+.modal-content {
     border: none;
     border-radius: 1.5rem;
     box-shadow: 5px 5px 10px -3px #c8c8c8;
 }
 
-/* fittings  */
 main .container .sun {
     position: absolute;
     top: 3%;
@@ -654,7 +646,6 @@ main .fixed-btn button img {
     height: 100%;
 }
 
-/* footer */
 footer .connect {
     display: flex;
     height: 65px;
@@ -718,7 +709,6 @@ footer .footer img {
 .br-mobile {
     display: none;
 }
-
 
 @media (max-width:992px) {
 
@@ -811,6 +801,10 @@ footer .footer img {
 }
 
 @media (max-width: 499px) {
+    header nav .navbar-nav .nav-item .nav-link {
+        display: block;
+    }
+
     main .desktop {
         display: none;
     }
@@ -986,26 +980,26 @@ footer .footer img {
     main .container .content .text .col-md-12 .col-md-33 {
         width: 41.666667%;
     }
-    
+
     main .tab-content.tab-service #process2 .content .text p {
         display: contents;
     }
-    
+
     main .tab-content.tab-service #process2 .service-item .modal .modal-body .row {
         display: contents;
     }
-     
-     main .tab-content.tab-service #process2 .service-item .modal .modal-body .row .col-md-8 {
+
+    main .tab-content.tab-service #process2 .service-item .modal .modal-body .row .col-md-8 {
         width: 100%;
     }
-    
+
     main .tab-content.tab-service #process2 .service-item .modal .modal-body .row .btnArrow-Prev {
         position: absolute;
         top: 45%;
         left: 5%;
         translate: -50%;
     }
-    
+
     main .tab-content.tab-service #process2 .service-item .modal .modal-body .row .btnArrow-Next {
         position: absolute;
         top: 45%;
@@ -1013,7 +1007,6 @@ footer .footer img {
         translate: 50%;
     }
 
-    /* footer */
     footer .footer {
         font-size: 1.3rem;
     }
