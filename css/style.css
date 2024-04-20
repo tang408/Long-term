@@ -6,14 +6,70 @@ header nav.yellow {
     background-color: #F2DC9F;
 }
 
+main .container .pink {
+    color: #E78992;
+}
+
 header nav {
     padding: 0 !important;
 }
 
 header nav .navbar-nav .nav-item .nav-link {
+    font-size: 1.4rem;
+}
+
+main .container,
+main .nav-tabs .nav-item .nav-link span,
+footer .footer {
+    font-size: 1.5rem;
+}
+
+main .container .content .news-card .card-title,
+main .container .content .news .col-md-12 .card-content .card-title,
+main .container .content .course .col-md-12 .card-title,
+main .container .content .activities-card .card-title,
+main .tab-content h4,
+main .tab-content .pink-top-text,
+main .tab-content .yellow-top-text {
+    font-size: 2.3rem;
+}
+
+main .container .content .date,
+main .container .content .activities .goback-group a.goback,
+main .container .content .text .little-title,
+main .tab-content.tab-service #process2 .service-item .modal .modal-body .row .col-md-6 #modalContent {
+    font-size: 1.3rem;
+}
+
+main .container .content .text p {
+    font-size: 1.7rem;
+}
+
+main .container .pink {
+    font-size: 2.3rem !important;
+}
+
+main .container .content h2,
+footer .connect .connect-content h2 {
+    font-size: 2.7rem;
+}
+
+main .container .content .contact-us .col-md-12 .col-md-6 {
+    font-size: 1.2rem;
+}
+
+main .tab-content.tab-service #process2 .service-item .modal .modal-body #modalTitle {
+    font-size: 2.5rem;
+}
+
+footer .connect .connect-content h4 {
+    font-size: 1.9rem;
+}
+
+
+header nav .navbar-nav .nav-item .nav-link {
     color: #966B41;
     font-weight: 600;
-    font-size: 1.4rem;
     display: flex;
     align-items: center;
 }
@@ -43,7 +99,6 @@ main {
 main .container {
     position: relative;
     padding: 0;
-    font-size: 1.5rem;
 }
 
 main .container .content {
@@ -55,7 +110,7 @@ main .container .content .purpose {
     width: 90%;
 }
 
-main .phone,
+.phone,
 main .container .content .text br {
     display: none;
 }
@@ -70,6 +125,7 @@ main .container .content .news,
 main .container .content .course,
 main .container .content .course .course-link a,
 main .tab-content span,
+main .tab-content #process1 .notice,
 main .tab-content #process2 ul,
 main .tab-content #process3 ul,
 main .tab-content.tab-service #process1 ul,
@@ -83,7 +139,6 @@ main .container .content .news .card-text {
 }
 
 main .container .content .news-card .card-title {
-    font-size: 2.3rem;
     font-weight: 600;
     min-height: 8vh;
 }
@@ -95,12 +150,10 @@ main .container .content .course .col-md-12 {
 
 main .container .content .news .col-md-12 .card-content .card-title,
 main .container .content .course .col-md-12 .card-title {
-    font-size: 2.3rem;
     font-weight: 600;
 }
 
 main .container .content .date {
-    font-size: 1.3rem;
     font-weight: 600;
     color: #744423;
 }
@@ -162,17 +215,12 @@ main .container .content .activities .col-md-12 .col-md-4 .activities-card {
     margin: 1rem 2rem;
 }
 
-main .container .content .text p {
-    font-size: 1.7rem;
-}
-
 main .container .content .activities-card a {
     display: inline-block;
 }
 
 main .container .content .activities-card .card-title,
 main .tab-content h4 {
-    font-size: 2.3rem;
     font-weight: 600;
 }
 
@@ -187,7 +235,6 @@ main .container .content .activities .goback-group a.goback {
     align-items: center;
     color: #c6053e;
     font-weight: 900;
-    font-size: 1.3rem;
 }
 
 main .container .content .activities .goback-group a.goback img {
@@ -219,13 +266,7 @@ main .container .content .text.long-term {
 }
 
 main .container .content .text .little-title {
-    font-size: 1.3rem;
     font-weight: 900;
-}
-
-main .container .pink {
-    font-size: 2.3rem !important;
-    color: #E78992;
 }
 
 main .container .content .pic {
@@ -287,7 +328,6 @@ main .container .content .contact-cloud-three {
 main .container .content h2 {
     margin-bottom: 0.5rem;
     font-weight: 900;
-    font-size: 2.7rem;
 }
 
 main .container .content .contact-us,
@@ -298,7 +338,6 @@ main .container .content .activities {
     position: relative;
 }
 
-
 main .container .content .contact-us .col-md-12 {
     display: flex;
     margin: 0;
@@ -308,7 +347,6 @@ main .container .content .contact-us .col-md-12 {
 main .container .content .contact-us .col-md-12 .col-md-6 {
     color: #736231;
     font-weight: 600;
-    font-size: 1.2rem;
     text-align: start;
 }
 
@@ -347,17 +385,20 @@ main .nav-tabs .nav-item {
 main .nav-tabs .nav-item img {
     position: absolute;
     bottom: 0;
-    left: 5px;
+    left: 20px;
     width: 70px;
 }
 
-main .nav-tabs .nav-item .nav-link {
-    width: auto;
+main .nav-tabs .nav-item.w-300 .nav-link {
+    width: 300px;
+}
+
+main .nav-tabs .nav-item.w-200 .nav-link {
+    width: 250px;
 }
 
 main .nav-tabs .nav-item .nav-link span {
     padding-left: 50px;
-    font-size: 1.5rem;
 }
 
 main .tab-content ul {
@@ -366,7 +407,7 @@ main .tab-content ul {
 
 main .tab-content.process #process1 ul {
     list-style: none;
-    padding-left: 0;
+    /* padding-left: 0; */
 }
 
 main .tab-content .pink-top-text {
@@ -375,7 +416,6 @@ main .tab-content .pink-top-text {
     padding: 2rem;
     border-radius: 25px;
     text-align: center;
-    font-size: 2.3rem;
     font-weight: 600;
 }
 
@@ -385,7 +425,6 @@ main .tab-content .yellow-top-text {
     padding: 2rem 2rem 2rem 9rem;
     border-radius: 25px;
     text-align: center;
-    font-size: 2.3rem;
     font-weight: 600;
 }
 
@@ -426,12 +465,15 @@ main .tab-content #process1 .hotline-group {
 main .tab-content #process1 .hotline {
     margin-top: 2.5rem;
     width: 85%;
+    position: relative;
 }
 
 main .tab-content #process1 .hotline img {
     position: absolute;
-    bottom: 0;
-    left: 25px;
+    /* bottom: 0;
+    left: 25px; */
+    bottom: -10px;
+    left: -50px;
 }
 
 main .tab-content span,
@@ -439,28 +481,27 @@ main .tab-content #process3 ul li {
     line-height: 3rem;
 }
 
-main .tab-content.process #process2 ul.notice,
-main .tab-content.process #process3 ul.notice {
+main .tab-content.process ul.notice {
     list-style: none;
     padding-left: 0;
 }
 
-main .tab-content.process #process2 ul.notice li,
-main .tab-content.process #process3 ul.notice li {
+main .tab-content.process ul.notice {
     padding-left: 1em;
     position: relative;
     margin-bottom: 10px;
 }
 
-main .tab-content.process #process2 ul.notice li:before,
-main .tab-content.process #process3 ul.notice li:before {
+main .tab-content.process ul.notice li:before {
     content: '※';
     position: absolute;
     left: 0;
 }
 
-main .tab-content.process #process2 ul.notice li a,
-main .tab-content.process #process3 ul li a {
+main .tab-content.process ul.notice li a,
+main .tab-content.process #process3 ul li a,
+main .tab-content span.friendly a,
+main .tab-content ul.service-upper-alpha li a {
     text-decoration: none;
     color: #736231;
 }
@@ -500,7 +541,6 @@ main .tab-content.tab-service .service-decimal li {
     list-style: decimal;
 }
 
-
 main .tab-content.tab-service .service-upper-alpha li {
     list-style: upper-alpha;
 }
@@ -529,7 +569,6 @@ main .tab-content.tab-service #process2 .service-item .col-md-12 {
 
 main .tab-content.tab-service #process2 .service-item .modal .modal-body #modalTitle {
     font-weight: 600;
-    font-size: 2.5rem;
     margin-bottom: 2rem;
 }
 
@@ -566,10 +605,6 @@ main .tab-content.tab-service #process2 .service-item .modal .modal-body .row .c
 
 main .tab-content.tab-service #process2 .service-item .modal .modal-body .row .btnArrow {
     color: #98846C;
-}
-
-main .tab-content.tab-service #process2 .service-item .modal .modal-body .row .col-md-6 #modalContent {
-    font-size: 1.3rem;
 }
 
 .modal-backdrop {
@@ -671,7 +706,6 @@ footer .connect .connect-content {
 }
 
 footer .connect .connect-content h4 {
-    font-size: 1.9rem;
     margin-bottom: 0;
     font-weight: 600;
 }
@@ -679,7 +713,6 @@ footer .connect .connect-content h4 {
 footer .connect .connect-content h2 {
     margin: 0 1rem 0 0.5rem;
     font-weight: 600;
-    font-size: 2.7rem;
 }
 
 footer .connect .connect-content .contact {
@@ -698,7 +731,6 @@ footer .footer {
     justify-content: center;
     align-items: center;
     font-weight: 900;
-    font-size: 1.5rem;
 }
 
 footer .footer img {
@@ -801,16 +833,39 @@ footer .footer img {
 }
 
 @media (max-width: 499px) {
-    header nav .navbar-nav .nav-item .nav-link {
+
+    main .container,
+    footer .footer {
+        font-size: 1.2rem;
+    }
+
+    main .container .content .activities-card .card-title,
+    main .tab-content h4,
+    main .container .content .text .pink {
+        font-size: 1.5rem;
+    }
+
+    main .container .content .text p,
+    main .tab-content .pink-top-text,
+    main .tab-content .yellow-top-text {
+        font-size: 1.3rem;
+    }
+
+    main .container .content .contact-us .col-md-12 .col-md-6 {
+        font-size: 1.4rem;
+    }
+
+    main .nav-tabs .nav-item .nav-link span {
+        font-size: 1rem;
+    }
+
+    header nav .navbar-nav .nav-item .nav-link,
+    .phone {
         display: block;
     }
 
-    main .desktop {
+    .desktop {
         display: none;
-    }
-
-    main .phone {
-        display: block;
     }
 
     header nav.light-yellow {
@@ -820,6 +875,11 @@ footer .footer img {
     header nav .navbar-brand img,
     header .connect-img {
         height: 6.5vh;
+    }
+
+    main .container {
+        position: relative;
+        padding: 0;
     }
 
     main .container.tabs-group {
@@ -852,14 +912,9 @@ footer .footer img {
     }
 
     main .container .content .text p {
-        font-size: 1.5rem;
         margin: 0;
         line-height: 3.5rem;
         font-weight: 600;
-    }
-
-    main .container .content .text .pink {
-        font-size: 1.7rem;
     }
 
     main .container .content .text br,
@@ -879,10 +934,6 @@ footer .footer img {
 
     main .container .content .row {
         margin-top: -1rem;
-    }
-
-    main .container .content .contact-us .col-md-12 .col-md-6 {
-        font-size: 1.4rem;
     }
 
     main .container .content .contact-us .col-md-12 .col-md-6 p {
@@ -919,10 +970,7 @@ footer .footer img {
         display: block;
     }
 
-    main .container .content .course .col-md-12 .col-md-8 {
-        padding: 0;
-    }
-
+    main .container .content .course .col-md-12 .col-md-8,
     main .container .content .news .col-md-12 .col-md-6 img {
         padding: 0;
     }
@@ -931,32 +979,39 @@ footer .footer img {
         display: grid;
     }
 
+    main .nav-tabs .nav-item.w-200 .nav-link,
+    main .nav-tabs .nav-item.w-300 .nav-link {
+        padding: .5rem 0rem .5rem 1rem;
+    }
 
-    main .nav-tabs .nav-item img {
+    main .nav-tabs .nav-item.w-300 img,
+    main .nav-tabs .nav-item.w-200 img {
         position: absolute;
         bottom: 13px;
-        left: 0;
+        left: 8px;
         width: 20px;
     }
 
-    main .nav-tabs .nav-item .nav-link {
-        width: auto;
+    main .nav-tabs .nav-item.w-300 .nav-link {
+        width: 160px;
     }
 
-    main .nav-tabs .nav-item .nav-link span {
+    main .nav-tabs .nav-item.w-200 .nav-link {
+        max-width: 118px;
+    }
+
+    main .nav-tabs .nav-item .nav-link span,
+    main .tab-content.tab-service .asterisk li {
         padding-left: 0;
-        font-size: 1rem;
     }
 
     main .tab-content .pink-top-text {
         padding: 1.5rem;
         border-radius: 25px;
-        font-size: 1.5rem;
     }
 
     main .tab-content .yellow-top-text {
         line-height: 2rem;
-        font-size: 1.5rem;
         padding: 1.5rem;
     }
 
@@ -973,7 +1028,8 @@ footer .footer img {
         right: 2%;
     }
 
-    main .container .content .talk {
+    main .container .content .talk,
+    main .tab-content.tab-service #process2 .service-item .modal .modal-body .row .col-md-8 {
         width: 100%;
     }
 
@@ -981,16 +1037,9 @@ footer .footer img {
         width: 41.666667%;
     }
 
-    main .tab-content.tab-service #process2 .content .text p {
-        display: contents;
-    }
-
+    main .tab-content.tab-service #process2 .content .text p,
     main .tab-content.tab-service #process2 .service-item .modal .modal-body .row {
         display: contents;
-    }
-
-    main .tab-content.tab-service #process2 .service-item .modal .modal-body .row .col-md-8 {
-        width: 100%;
     }
 
     main .tab-content.tab-service #process2 .service-item .modal .modal-body .row .btnArrow-Prev {
@@ -1005,10 +1054,6 @@ footer .footer img {
         top: 45%;
         right: 5%;
         translate: 50%;
-    }
-
-    footer .footer {
-        font-size: 1.3rem;
     }
 
     footer .footer img {
