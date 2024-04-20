@@ -407,7 +407,6 @@ main .tab-content ul {
 
 main .tab-content.process #process1 ul {
     list-style: none;
-    /* padding-left: 0; */
 }
 
 main .tab-content .pink-top-text {
@@ -470,8 +469,6 @@ main .tab-content #process1 .hotline {
 
 main .tab-content #process1 .hotline img {
     position: absolute;
-    /* bottom: 0;
-    left: 25px; */
     bottom: -10px;
     left: -50px;
 }
@@ -627,10 +624,6 @@ main .container .sun {
 main .container .process-sun.sun {
     top: 40px;
     right: -100px;
-}
-
-main .cloud {
-    margin-top: -8rem;
 }
 
 main .activities-cloud {
