@@ -24,7 +24,6 @@ footer .footer {
     font-size: 1.5rem;
 }
 
-main .container .content .news-card .card-title,
 main .container .content .news .col-md-12 .card-content .card-title,
 main .container .content .course .col-md-12 .card-title,
 main .container .content .activities-card .card-title,
@@ -32,6 +31,10 @@ main .tab-content h4,
 main .tab-content .pink-top-text,
 main .tab-content .yellow-top-text {
     font-size: 2.3rem;
+}
+
+main .container .content .news-card .card-title {
+    font-size: 2rem;
 }
 
 main .container .content .date,
