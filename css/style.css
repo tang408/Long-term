@@ -66,6 +66,10 @@ footer .connect .connect-content h4 {
     font-size: 1.9rem;
 }
 
+main .container .news .card-text {
+    font-size: 1.2rem;
+}
+
 
 header nav .navbar-nav .nav-item .nav-link {
     color: #966B41;
@@ -135,7 +139,7 @@ main .tab-content.tab-service #process2 .modal {
 }
 
 main .container .content .news .card-text {
-    line-height: 2.3rem;
+    line-height: 1.7rem;
 }
 
 main .container .content .news-card .card-title {
@@ -473,6 +477,10 @@ main .tab-content #process1 .hotline img {
     left: -50px;
 }
 
+main .tab-content #process3 .connect-img {
+    width: 370px;
+}
+
 main .tab-content span,
 main .tab-content #process3 ul li {
     line-height: 3rem;
@@ -501,6 +509,11 @@ main .tab-content span.friendly a,
 main .tab-content ul.service-upper-alpha li a {
     text-decoration: none;
     color: #736231;
+}
+
+main .tab-content.process ul.notice li a,
+main .tab-content.process ul.time li a {
+    color: #E71E28 !important;
 }
 
 main .tab-content.process #process3 ul.time {
