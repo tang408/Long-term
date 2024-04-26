@@ -549,7 +549,6 @@ main .tab-content.tab-service .service-cjk-ideographic li {
     list-style: cjk-ideographic;
 }
 
-
 main .tab-content.tab-service .service-decimal li {
     list-style: decimal;
 }
@@ -563,8 +562,17 @@ main .tab-content.tab-service .asterisk li {
     padding-left: 2em;
 }
 
+main .news-content-div {
+    margin-left: 3em;
+}
+
 main .tab-content.tab-service #process1 .red-text {
     color: #E71F18;
+}
+
+main .tab-content.tab-service #process1 .red-solid-text {
+    color: #E71F18;
+    text-decoration: underline;
 }
 
 main .tab-content.tab-service #process1 .img-center {
